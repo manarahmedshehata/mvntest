@@ -7,7 +7,7 @@ pipeline {
         	steps {
         		echo "java build"
 				sh"""
-					mvn -X deploy 
+					mvn -X deploy -o
 					#mvn -X package
 				"""
         	}
