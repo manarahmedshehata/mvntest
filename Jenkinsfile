@@ -7,7 +7,7 @@ pipeline {
         	steps {
         		echo "java build"
 				sh"""
-					mvn clean package
+					mvn clean install
 				"""
         	}
         }
