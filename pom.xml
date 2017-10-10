@@ -16,17 +16,17 @@
     <repository>
       <id>nexus</id>
       <name>Nexus Releases</name>
-      <url>http://localhost:8081/repository/maven-releases</url>
+      <url>http://deploymentcoe.vodafone.skytapdns.com:7071/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
       <id>nexus</id>
       <name>Nexus Snapshot</name>
-      <url>http://deploymentcoe.vodafone.skytapdns.com:7071/repository/maven-snapshots</url>
+      <url>http://deploymentcoe.vodafone.skytapdns.com:7071/repository/maven-snapshots/</url>
     </snapshotRepository>
     <site>
       <id>nexus</id>
       <name>Nexus Sites</name>
-      <url>dav:http://deploymentcoe.vodafone.skytapdns.com:7071/repository/site</url>
+      <url>dav:http://deploymentcoe.vodafone.skytapdns.com:7071/repository/site/</url>
     </site>
   </distributionManagement>
   <build>
