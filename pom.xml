@@ -81,7 +81,7 @@
 				</executions>
 				<configuration>
 					<serverId>nexus</serverId>
-					<nexusUrl>http://deploymentcoe.vodafone.skytapdns.com:7071/repository/maven-snapshots/</nexusUrl>
+					<nexusUrl>http://deploymentcoe.vodafone.skytapdns.com:7071/repository/maven-central/</nexusUrl>
 					<skipStaging>false</skipStaging>
 				</configuration>
 			</plugin>
