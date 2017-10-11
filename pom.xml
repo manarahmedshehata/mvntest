@@ -80,7 +80,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<serverId>nexus-snapshots</serverId>
+					<serverId>nexus</serverId>
 					<nexusUrl>http://deploymentcoe.vodafone.skytapdns.com:7071/repository/maven-snapshots/</nexusUrl>
 					<skipStaging>false</skipStaging>
 				</configuration>
