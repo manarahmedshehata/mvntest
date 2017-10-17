@@ -122,9 +122,7 @@
                                 <propertiesFile>publish.properties</propertiesFile>
                             </artifactory>
                             <publisher>
-                                <contextUrl>http://localhost:8081/artifactory</contextUrl>
-                                <username>${username}</username>
-                                <password>${password}</password>
+                                <contextUrl>http://http://deploymentcoe.vodafone.skytapdns.com:8081/artifactory</contextUrl>
                                 <excludePatterns>*-tests.jar</excludePatterns>
                                 <repoKey>libs-release-local</repoKey>
                                 <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
