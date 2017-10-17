@@ -12,7 +12,21 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+
   <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>artifactory-releases</name>
+        <url>http://http://deploymentcoe.vodafone.skytapdns.com:8081/mvn</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>artifactory-snapshots</name>
+        <url>http://http://deploymentcoe.vodafone.skytapdns.com:8081/mvn</url>
+    </snapshotRepository>
+</distributionManagement>
+
+  <!-- <distributionManagement>
     <repository>
       <id>nexus</id>
       <name>Nexus Releases</name>
@@ -28,7 +42,7 @@
       <name>Nexus Sites</name>
       <url>dav:http://deploymentcoe.vodafone.skytapdns.com:7071/repository/site/</url>
     </site>
-  </distributionManagement>
+  </distributionManagement> -->
   <build>
     <plugins>
       <plugin>
