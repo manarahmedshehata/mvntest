@@ -12,7 +12,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
+<!--
   <distributionManagement>
     <repository>
         <id>central</id>
@@ -25,7 +25,7 @@
         <url>http://http://deploymentcoe.vodafone.skytapdns.com:8081/mvn</url>
     </snapshotRepository>
 </distributionManagement>
-
+-->
   <distributionManagement>
     <repository>
       <id>nexus</id>
