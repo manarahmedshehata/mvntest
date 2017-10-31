@@ -26,6 +26,7 @@
     </snapshotRepository>
 </distributionManagement>
 -->
+	<!--
   <distributionManagement>
     <repository>
       <id>nexus</id>
@@ -43,6 +44,7 @@
       <url>dav:http://deploymentcoe.vodafone.skytapdns.com:7071/repository/site/</url>
     </site>
   </distributionManagement> 
+-->
   <build>
     <plugins>
       <plugin>
