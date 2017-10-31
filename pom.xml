@@ -96,7 +96,7 @@
 				</executions>
 				<configuration>
 					<serverId>nexus</serverId>
-					<nexusUrl>http://deploymentcoe.vodafone.skytapdns.com:7071/repository/maven-central/</nexusUrl>
+					<nexusUrl>http://deploymentcoe.vodafone.skytapdns.com:7071</nexusUrl>
 					<skipStaging>false</skipStaging>
 				</configuration>
 			</plugin>
