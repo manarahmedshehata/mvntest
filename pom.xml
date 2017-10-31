@@ -26,7 +26,7 @@
     </snapshotRepository>
 </distributionManagement>
 -->
-	<!--
+	
   <distributionManagement>
     <repository>
       <id>nexus</id>
@@ -38,13 +38,9 @@
       <name>Nexus Snapshot</name>
       <url>http://deploymentcoe.vodafone.skytapdns.com:7071/repository/maven-snapshots/</url>
     </snapshotRepository>
-    <site>
-      <id>nexus</id>
-      <name>Nexus Sites</name>
-      <url>dav:http://deploymentcoe.vodafone.skytapdns.com:7071/repository/site/</url>
-    </site>
+
   </distributionManagement> 
--->
+
   <build>
     <plugins>
       <plugin>
