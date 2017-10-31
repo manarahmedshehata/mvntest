@@ -70,11 +70,7 @@
 						</goals>
 					</execution>
 				</executions>
-				<configuration>
-					<serverId>deployment</serverId>
-					<nexusUrl>http://deploymentcoe.vodafone.skytapdns.com:7071/repository/maven-central/</nexusUrl>
-					<skipStaging>false</skipStaging>
-				</configuration>
+				
 			</plugin>
 
 			<plugin>
@@ -84,7 +80,6 @@
 					<skip>true</skip>
 				</configuration>
 			</plugin>
-<!--
  			<plugin>
 				<groupId>org.sonatype.plugins</groupId>
 				<artifactId>nexus-staging-maven-plugin</artifactId>
@@ -105,7 +100,6 @@
 					<skipStaging>false</skipStaging>
 				</configuration>
 			</plugin>
--->
  
 <!--
      <plugin>
