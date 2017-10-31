@@ -36,7 +36,8 @@
     <snapshotRepository>
       <id>deployment</id>
       <name>Nexus Snapshot</name>
-      <url>http://deploymentcoe.vodafone.skytapdns.com:7071/repository/maven-snapshots/</url>
+	<url>http://deploymentcoe.vodafone.skytapdns.com:7071/repository/testmvn/</url>
+      <!--url>http://deploymentcoe.vodafone.skytapdns.com:7071/repository/maven-snapshots/</url-->
     </snapshotRepository>
 
   </distributionManagement> 
